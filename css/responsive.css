@@ -1,0 +1,84 @@
+@media screen and (max-width: 1025px) {
+  .polygon {
+    width: 15%;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .about_text {
+    width: 90%;
+    font-size: 18px;
+  }
+  .title_heading h3 {
+    font-size: 28px;
+  }
+  .leadership_team_container .row1 {
+    width: 60%;
+  }
+  .developmet_team_container .row1,
+  .sales_marketing_team .row1 {
+    width: 90%;
+  }
+  .team_container .row2 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team_container {
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .leadership_team_container .row1 {
+    width: 306px;
+    height: 100%;
+  }
+  .leadership_team_container .row2 {
+    width: 459px;
+    height: 100%;
+  }
+  .image_container img {
+    width: 70%;
+  }
+  .text_container .name {
+    font-size: 16px;
+  }
+  .text_container .designation {
+    font-size: 15px;
+  }
+  .developmet_team_container .row1,
+  .sales_marketing_team .row1 {
+    width: 636px;
+    height: 100%;
+  }
+  .developmet_team_container .row2,
+  .sales_marketing_team .row2 {
+    width: 477px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .polygon_container {
+    height: 50px;
+  }
+  .polygon {
+    width: 20%;
+  }
+  .polygon_inside {
+    width: 15%;
+    height: 70%;
+  }
+  .polygon_container_inside {
+    align-items: center;
+  }
+  .about_text {
+    font-size: 16px;
+  }
+}
